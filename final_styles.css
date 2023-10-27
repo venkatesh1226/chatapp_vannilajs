@@ -1,7 +1,7 @@
 
 body {
   font-family: 'Arial', sans-serif;
-  background-color: #ECE5DD; /* Light grey background similar to WhatsApp */
+  background-color: #ECE5DD; 
   margin: 0;
   padding: 0;
 }
@@ -13,7 +13,7 @@ body {
 
 #user-select {
   width: 100%;
-  background-color: #075E54; /* WhatsApp green color */
+  background-color: #075E54;
   color: white;
   padding: 10px 20px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
@@ -35,7 +35,7 @@ body {
 }
 
 #chat-header {
-  background-color: #075E54; /* WhatsApp green color */
+  background-color: #075E54;
   color: white;
   padding: 10px 20px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
@@ -56,17 +56,17 @@ body {
 }
 
 .message.sender {
-  background-color: #DCF8C6; /* WhatsApp sender message color */
+  background-color: #DCF8C6; 
   border-radius: 7px 7px 0 7px;
-  align-self: flex-end; /* Align to the right */
-  margin-left: 40%; /* Create space on the left to make the message look right-aligned */
+  align-self: flex-end;
+  margin-left: 40%;
 }
 
 .message.receiver {
-  background-color: #FFFFFF; /* WhatsApp receiver message color */
+  background-color: #FFFFFF;
   border-radius: 7px 7px 7px 0;
-  align-self: flex-start; /* Align to the left */
-  margin-right: 40%; /* Create space on the right to make the message look left-aligned */
+  align-self: flex-start; 
+  margin-right: 40%;
 }
 
 #chat-input {
@@ -87,7 +87,7 @@ body {
 }
 
 #send-button {
-  background-color: #075E54; /* WhatsApp green color */
+  background-color: #075E54; 
   color: white;
   border: none;
   padding: 10px 20px;
@@ -96,10 +96,9 @@ body {
 }
 
 #send-button:hover {
-  background-color: #054C44; /* Slightly darker green for hover effect */
+  background-color: #054C44; 
 }
 
-/* ... (previous CSS) ... */
 
 #user-list li {
   list-style: none;
@@ -117,17 +116,11 @@ body {
   background-color: #EDEDED; /* Light grey for hover effect */
 }
 
-#user-list li img {
-  width: 40px;
-  height: 40px;
-  border-radius: 50%; /* Make the image circular */
-  margin-right: 10px;
-  object-fit: cover; /* Keep aspect ratio of the image */
-}
+
 
 #user-list li span {
   font-size: 16px;
   font-weight: 500; /* Semi-bold */
-  color: #4a4a4a; /* Dark grey text */
+  color: #4a4a4a; 
 }
 
