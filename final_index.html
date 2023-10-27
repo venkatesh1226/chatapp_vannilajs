@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chat App</title>
+  <link rel="stylesheet" href="final_styles.css">
+</head>
+
+<body>
+  <div id="user-select">
+    <label for="current-user">Login as: </label>
+    <select id="current-user">
+      <option value="" disabled selected>Select a user</option>
+    </select>
+  </div>
+
+  <div id="app">
+    <section id="user-list">
+      <h2>Users</h2>
+      <ul id="users"></ul>
+    </section>
+
+    <section id="chat-section">
+      <div id="chat-header">
+        <h2 id="chat-with">Select a user to chat with</h2>
+      </div>
+
+      <div id="chat-messages"></div>
+
+      <div id="chat-input">
+        <textarea id="message-input" placeholder="Type your message..."></textarea>
+        <button id="send-button">Send</button>
+      </div>
+    </section>
+  </div>
+  <script src="final_app.js"></script>
+</body>
+
+</html>
